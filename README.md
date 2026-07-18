@@ -1,4 +1,3 @@
-````markdown
 # 👟 Simple Flutter Sneaker Shop App
 
 A simple Flutter application built to practice Flutter fundamentals such as layouts, navigation, state management using **Provider**, reusable widgets, and basic cart functionality.
@@ -101,5 +100,3 @@ Feel free to fork this repository and submit pull requests for improvements.
 
 This project is open source and available under the MIT License.
 
-```
-```
