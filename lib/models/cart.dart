@@ -7,25 +7,25 @@ class Cart extends ChangeNotifier{
     Shoe(
       name: "Japan S",
       imagePath: "lib/images/sneakerimage1.jpg",
-      description: "Classic Style",
+      description: "Classic comfort for everyday wear",
       price: "₹7,999",
     ),
     Shoe(
       name: "Gel Lyte",
       imagePath: "lib/images/sneakerimage2.jpg",
-      description: "Retro Look",
+      description: "Retro design with modern comfort",
       price: "₹8,499",
     ),
     Shoe(
       name: "Gel Kayano",
       imagePath: "lib/images/sneakerimage3.jpg",
-      description: "Max Comfort",
+      description: "Premium cushioning for long runs",
       price: "₹12,999",
     ),
     Shoe(
       name: "Novablast",
       imagePath: "lib/images/sneakerimage4.jpg",
-      description: "Lightweight Run",
+      description: "Lightweight performance for daily training",
       price: "₹10,999",
     ),
   ];
@@ -45,13 +45,13 @@ class Cart extends ChangeNotifier{
 
   // Add Item to Cart
   void addItemCart(Shoe shoe) {
-    shoeList.add(shoe);
+    userCart.add(shoe);
     notifyListeners();
   }
 
-  // Remove item from the cart
+// Remove item from the cart
   void removeItemCart(Shoe shoe) {
-    shoeList.remove(shoe);
+    userCart.remove(shoe);
     notifyListeners();
   }
 }

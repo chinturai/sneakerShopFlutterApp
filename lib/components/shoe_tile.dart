@@ -3,8 +3,9 @@ import 'package:sneaker_shop/models/shoe.dart';
 
 class ShoeTile extends StatelessWidget {
   Shoe shoe;
+  void Function()? onTap;
 
-  ShoeTile({super.key, required this.shoe});
+  ShoeTile({super.key, required this.shoe, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -66,13 +67,16 @@ class ShoeTile extends StatelessWidget {
                 ),
 
                 // ADD TO CART BUTTON
-                Container(
-                  padding: EdgeInsets.all(20),
-                  decoration: BoxDecoration(
-                    color: Colors.black,
-                    borderRadius: BorderRadius.circular(12),
+                GestureDetector(
+                  onTap: onTap,
+                  child: Container(
+                    padding: EdgeInsets.all(20),
+                    decoration: BoxDecoration(
+                      color: Colors.black,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Icon(Icons.add, color: Colors.white),
                   ),
-                  child: Icon(Icons.add, color: Colors.white),
                 ),
               ],
             ),
