@@ -1,17 +1,105 @@
-# sneaker_shop
+````markdown
+# 👟 Simple Flutter Sneaker Shop App
 
-A new Flutter project.
+A simple Flutter application built to practice Flutter fundamentals such as layouts, navigation, state management using **Provider**, reusable widgets, and basic cart functionality.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 🏠 Home Screen
+- 👟 Browse Sneakers
+- 🛒 Add to Cart
+- 🧺 View Cart
+- 📱 Clean and Responsive UI
+- ⚡ State Management using Provider
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- Provider
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Demo
+
+### Home Page
+<p align="center">
+  <img src="demoImages/1Homepage.png" width="250">
+</p>
+
+### Product Listing
+<p align="center">
+  <img src="demoImages/2Demo.png" width="250">
+</p>
+
+### Add to Cart
+<p align="center">
+  <img src="demoImages/3AddtoCart.png" width="250">
+</p>
+
+### More Products
+<p align="center">
+  <img src="demoImages/4Demo.png" width="250">
+</p>
+
+### Cart Page
+<p align="center">
+  <img src="demoImages/5cart.png" width="250">
+</p>
+
+## 🚀 Getting Started
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+````
+
+2. Navigate to the project
+
+```bash
+cd your-repository
+```
+
+3. Install dependencies
+
+```bash
+flutter pub get
+```
+
+4. Run the app
+
+```bash
+flutter run
+```
+
+## 📂 Project Structure
+
+```
+lib/
+├── components/
+├── models/
+├── pages/
+├── themes/
+└── main.dart
+```
+
+## 📌 Learning Objectives
+
+This project was built to learn:
+
+* Flutter Widgets
+* Stateful & Stateless Widgets
+* Navigation
+* Provider State Management
+* Reusable UI Components
+* Flutter Project Structure
+
+## 🤝 Contributing
+
+Feel free to fork this repository and submit pull requests for improvements.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+```
+```
